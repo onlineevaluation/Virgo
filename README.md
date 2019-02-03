@@ -1,3 +1,19 @@
+---
+home: true
+heroText: 自动评测系统文档
+tagline: 全面详细文档
+actionText: 详细文档
+features:
+- title: 天秤座
+  details: 采用 kotlin + SpringBoot ，快速高效开发。
+- title: 水瓶座
+  details: 强大的 Angular 组件构建的 SPA 应用
+- title: 未知
+  details: Angular 项目，完善的后台体验
+footer: MIT Licensed | Copyright © 2019-present Hui
+---
+
+
 # 项目介绍
 
 
