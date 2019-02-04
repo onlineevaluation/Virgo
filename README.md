@@ -10,7 +10,7 @@ features:
   details: 强大的 Angular 组件构建的 SPA 应用
 - title: 未知
   details: Angular 项目，完善的后台体验
-footer: MIT Licensed | Copyright © 2019-present Hui
+footer: MIT Licensed | Copyright © 2019 Hui
 ---
 
 

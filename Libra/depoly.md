@@ -1,4 +1,4 @@
-# 项目部署文档
+# 部署
 
 ## 开发环境
 
@@ -45,8 +45,12 @@ spring:
 
 将编译好的 jar 包移至生产环境。
 
-# \*unx
+### \*unx
 
 确保 `RabbitMq` 和 `Mysql` 已经运行，并且安装有 `JDK` 。
 
 采用 `nohup java -jar libra-version.java` 进行运行。
+
+### windows
+
+使用命令行 `java -jar libra-version.java` 启动项目。
