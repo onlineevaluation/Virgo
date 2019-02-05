@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: 自动评测系统文档
+heroText: 自动评测及推荐系统文档
 tagline: 全面详细文档
 actionText: 详细文档
 features:

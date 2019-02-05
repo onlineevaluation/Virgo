@@ -1,0 +1,19 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "---\r home: true\r heroText: 自动评测及推荐系统文档\r tagline: 全面详细文档\r actionText: 详细文档\r features:\r - title: 天秤座\r   details: 采用 kotlin + SpringBoot ，快速高效开发。\r - title: 水瓶座\r   details: 强大的 Angular 组件构建的 SPA 应用\r - title: 未知\r   details: Angular 项目，完善的后台体验\r footer: MIT Licensed | Copyright © 2019 Hui\r ---",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev .",
+    "docs:build": "vuepress build ."
+  },
+  "author": "",
+  "license": "ISC",
+  "resolutions": {
+    "terser": "3.14.1"
+  },
+  "devDependencies": {
+    "vuepress": "^0.14.8",
+    "webpack": "4.8.1"
+  }
+}
