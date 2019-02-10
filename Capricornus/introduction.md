@@ -6,7 +6,7 @@
 
 ## 完成进度
 
-目前可以在 `windows` 上进行代码的编译和运行。`windows` 平台完善后会立马一直到 `linux` 和 `macOS` 上。
+目前可以在 `windows` 上进行代码的编译和运行。`windows` 平台完善后会移植到 `linux` 和 `macOS` 上。
 
 ## 已知BUG
 

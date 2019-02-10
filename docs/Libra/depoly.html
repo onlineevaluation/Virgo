@@ -7,7 +7,7 @@
     <meta name="description" content="">
     
     
-    <link rel="preload" href="/Virgo/assets/css/0.styles.ec42e455.css" as="style"><link rel="preload" href="/Virgo/assets/js/app.2f890578.js" as="script"><link rel="preload" href="/Virgo/assets/js/7.cc92bbbe.js" as="script"><link rel="prefetch" href="/Virgo/assets/js/10.94d0a70d.js"><link rel="prefetch" href="/Virgo/assets/js/11.502c9e4d.js"><link rel="prefetch" href="/Virgo/assets/js/12.ce1e94ad.js"><link rel="prefetch" href="/Virgo/assets/js/2.cae2c600.js"><link rel="prefetch" href="/Virgo/assets/js/3.b10779fa.js"><link rel="prefetch" href="/Virgo/assets/js/4.1dd57460.js"><link rel="prefetch" href="/Virgo/assets/js/5.76705955.js"><link rel="prefetch" href="/Virgo/assets/js/6.5dab9cbd.js"><link rel="prefetch" href="/Virgo/assets/js/8.f0abd33c.js"><link rel="prefetch" href="/Virgo/assets/js/9.2d435bc0.js">
+    <link rel="preload" href="/Virgo/assets/css/0.styles.ec42e455.css" as="style"><link rel="preload" href="/Virgo/assets/js/app.73d9d993.js" as="script"><link rel="preload" href="/Virgo/assets/js/7.cc92bbbe.js" as="script"><link rel="prefetch" href="/Virgo/assets/js/10.94d0a70d.js"><link rel="prefetch" href="/Virgo/assets/js/11.502c9e4d.js"><link rel="prefetch" href="/Virgo/assets/js/12.ce1e94ad.js"><link rel="prefetch" href="/Virgo/assets/js/2.cae2c600.js"><link rel="prefetch" href="/Virgo/assets/js/3.b10779fa.js"><link rel="prefetch" href="/Virgo/assets/js/4.ebea8818.js"><link rel="prefetch" href="/Virgo/assets/js/5.76705955.js"><link rel="prefetch" href="/Virgo/assets/js/6.5dab9cbd.js"><link rel="prefetch" href="/Virgo/assets/js/8.f0abd33c.js"><link rel="prefetch" href="/Virgo/assets/js/9.2d435bc0.js">
     <link rel="stylesheet" href="/Virgo/assets/css/0.styles.ec42e455.css">
   </head>
   <body>
@@ -19,6 +19,6 @@
   profiles:
     active: prod
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>同时修改 <code>application-prod.yml</code> 中部分信息，例如 <code>mysql</code> <strong>用户名</strong>，<strong>密码</strong>，所连接的<strong>库</strong>。<code>RabbitMq</code> 的<strong>账号信息</strong>等。</p> <p>使用 <code>Gradle</code> 命令行进行编译 <code>./gradlew build</code></p> <p>正确编译后，会产生新的文件夹 <code>build</code> 。在该文件夹下的 <code>libs</code> 文件夹中有我们编译完成的 <code>jar</code> 包。</p> <h2 id="部署运行"><a href="#部署运行" aria-hidden="true" class="header-anchor">#</a> 部署运行</h2> <p>将编译好的 jar 包移至生产环境。</p> <h3 id="unx"><a href="#unx" aria-hidden="true" class="header-anchor">#</a> *unx</h3> <p>确保 <code>RabbitMq</code> 和 <code>Mysql</code> 已经运行，并且安装有 <code>JDK</code> 。</p> <p>采用 <code>nohup java -jar libra-version.java</code> 进行运行。</p> <h3 id="windows"><a href="#windows" aria-hidden="true" class="header-anchor">#</a> windows</h3> <p>使用命令行 <code>java -jar libra-version.java</code> 启动项目。</p></div> <div class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">2/4/2019, 12:12:46 PM</span></div></div> <!----> </div> <!----></div></div>
-    <script src="/Virgo/assets/js/app.2f890578.js" defer></script><script src="/Virgo/assets/js/7.cc92bbbe.js" defer></script>
+    <script src="/Virgo/assets/js/app.73d9d993.js" defer></script><script src="/Virgo/assets/js/7.cc92bbbe.js" defer></script>
   </body>
 </html>
