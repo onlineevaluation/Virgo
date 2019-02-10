@@ -1,1 +1,0 @@
-# 魔羯座 Capricornus

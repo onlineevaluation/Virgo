@@ -11,7 +11,7 @@ features:
 - title: 水瓶座
   details: 强大的 Angular 组件构建的学生端应用
 - title: 摩羯座
-  details: 判题系统核心模块，可能采用 c语言 或者 kotlin native
+  details: 判题系统核心模块，采用 go 语言进行编写
 - title: 未知
   details: Angular 项目，完善的后台体验
 footer: MIT Licensed | Copyright © 2019 Hui
