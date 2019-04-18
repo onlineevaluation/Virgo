@@ -6,7 +6,7 @@
 
 ## 完成进度
 
-目前可以在 `windows` 上进行代码的编译和运行。`windows` 平台完善后会移植到 `linux` 和 `macOS` 上。
+基本已经完成，可以编译 windows 下的 c/c++ 和 linux下的 c\c++ 文件。
 
 ## 已知 BUG
 
