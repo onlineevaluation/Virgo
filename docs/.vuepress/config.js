@@ -22,6 +22,7 @@ module.exports = {
         items: [
           { text: '介绍', link: '/Capricornus/introduction' },
           { text: '结构', link: '/Capricornus/struts' },
+          { text: '部署', link: 'Capricornus/deploy'},
         ],
       },
       {
