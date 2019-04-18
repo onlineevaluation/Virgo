@@ -84,7 +84,13 @@ gcc -pedantic [filePath] -o [filename]
 
 ### runInXnix
 
-该函数目前未实现，主要用于对 `linux` 和 `macOS` 上进行。
+在linux环境下和macos下进行该函数，目前并未测试过 macOS 下的可用性。
+
+在 linux 下通过 bash 终端进行交互，基本命令和 windows 下的状况下一样。
+
+猜想：
+
+如果给linux安装好powershell是不是就可以按照windows运行环境进行？？
 
 ### judeg
 
