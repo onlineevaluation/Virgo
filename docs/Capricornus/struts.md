@@ -27,16 +27,18 @@ func judgeCode(filePath, outputPath, fileName string, data string, limitTime int
 | data       | string | 测评数据格式 详细格式如下 |
 | limitTIme  | int64  | 代码运行时间              |
 
+json 采用 `#$%  %$#` 进行包含，非 ascii 码会报错，所以在试题编辑和试题测试数据的时候要注意这一点
+
 ```json
 {
   "datas": [
     {
-      "input": "[1,2]", 
-      "output": "[3]" 
+      "input": "#$%1,2%$#",
+      "output": "#$%3%$#"
     },
     {
-      "input": "[3,6]",
-      "output": "[9]"
+      "input": "#$%3,6%$#",
+      "output": "#$%9%$#"
     }
   ]
 }
